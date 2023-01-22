@@ -15,6 +15,7 @@ import { setFavorite, setProfile } from "../../../Redux/Slice/Profile";
 import { useRouteTo } from "../../../Hooks/useRouteTo";
 
 import toast from "react-hot-toast";
+import Cookies from "js-cookie";
 
 const schema = yup
     .object({
@@ -76,6 +77,7 @@ const Authorization: FC<AuthorizationType> = () => {
                 icon: "👏",
             });
             firstTime.current = false;
+            Cookies.set("frontAuyh", "zxc");
         }
     }
 
