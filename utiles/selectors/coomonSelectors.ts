@@ -1,4 +1,3 @@
-import { RootState } from "../../Redux/store";
+import { AppState } from "../../Redux/store";
 
-export const getBurgerStatus = (state: RootState) =>
-    state.common.isBurgerActive;
+export const getBurgerStatus = (state: AppState) => state.common.isBurgerActive;
