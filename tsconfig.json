@@ -21,7 +21,7 @@
         "**/*.tsx",
         "components/User.jsx",
         "pages/index.tsx",
-        "utiles/isPropNull.js"
+        "utiles/isPropNull.ts"
     ],
     "exclude": ["node_modules"]
 }
